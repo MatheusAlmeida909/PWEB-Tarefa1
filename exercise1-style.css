@@ -15,7 +15,7 @@ body{
 }
 
 .item1{
-    background-color: darkblue;
+    background-color: #0404bd;
     width: 35%;
     height: 100%;
     font-size: 60px;
@@ -33,9 +33,9 @@ body{
     justify-content: space-between;
 }
 .item2{
-    background-color: forestgreen;
+    background-color: #485fc7;
     width: 100%;
-    height: 49%;
+    height: 47%;
     font-size: 60px;
     display: flex;
     justify-content: center;
@@ -44,19 +44,35 @@ body{
 
 .sector2{
     width: 100%;
-    height: 46%;
+    height: 47%;
     display: flex;
     justify-content: space-between;
 }
 
 .item3{
-    background-color: lightcyan;
+    background-color: #955fff;
     width: 47%;
     height: 100%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sector3{
-    background-color: aquamarine;
     width: 47%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item4{
+    background-color: #b35fff;
+    width: 100%;
+    height: 47%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
