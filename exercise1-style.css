@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container{
+    background-color: rgb(83, 83, 83);
+    width: 95%;
+    height: 450px;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.item-1{
+    background-color: darkblue;
+    width: 35%;
+    height: 95%;
+    margin: auto;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-2{
+    background-color: limegreen;
+    width: 60%;
+    height: 95%;
+    margin: auto;
+}
