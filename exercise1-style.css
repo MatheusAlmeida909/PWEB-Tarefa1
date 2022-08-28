@@ -6,27 +6,57 @@ body{
 
 .flex-container{
     background-color: rgb(83, 83, 83);
-    width: 95%;
+    width: 97%;
     height: 450px;
     display: flex;
-    padding: 15px;
-    justify-content: space-around;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.item-1{
+.item1{
     background-color: darkblue;
     width: 35%;
-    height: 95%;
-    margin: auto;
+    height: 100%;
     font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.item-2{
-    background-color: limegreen;
-    width: 60%;
-    height: 95%;
-    margin: auto;
+.sector1{
+    width: 62%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item2{
+    background-color: forestgreen;
+    width: 100%;
+    height: 49%;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sector2{
+    width: 100%;
+    height: 46%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item3{
+    background-color: lightcyan;
+    width: 47%;
+    height: 100%;
+}
+
+.sector3{
+    background-color: aquamarine;
+    width: 47%;
+    height: 100%;
 }
