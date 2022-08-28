@@ -9,8 +9,6 @@ body{
     width: 660px;
     height: 660px;
     padding: 30px;
-    display: flex;
-    justify-content: space-between;
 }
 
 #flex{
@@ -22,7 +20,7 @@ body{
     background-color: lightslategrey;
 }
 
-.quadrant{
+.quadrant-a{
     width: 47.5%;
     height: 100%;
     flex-direction: column; 
@@ -40,7 +38,6 @@ body{
 }
 
 .quadrant-c{
-    
     width: 47.5%;
     height: 100%;
     flex-direction: column;
