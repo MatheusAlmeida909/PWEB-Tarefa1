@@ -35,29 +35,28 @@ body{
 
 .group-middle{
     background-color: darkorange;
-    width: 15%;
+    width: 13%;
 }
 
 .group-right{
-    width: 55%;
+    width: 57%;
     height: 100%;
     flex-direction: column;
 }
 
-.line-top{
+.row-top{
     width: 100%;
     height: 22%;
 }
 
-.line-middle{
+.row-middle{
     width: 100%;
     height: 18%;
 }
 
-.line-bottom{
-    background-color: cadetblue;
+.row-bottom{
     width: 100%;
-    height: 50%;
+    height: 50%;    
 }
 
 .item-top-left{
@@ -74,13 +73,54 @@ body{
 
 .item-mid-left{
     background-color: blueviolet;
-    width: 33%;
+    width: 31%;
     height: 100%;
 }
 
 .item-mid-right{
     background-color: darkslateblue;
-    width: 62%;
+    width: 64%;
     height: 100%;
 }
 
+.item-bot-left{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.subitem-top-a{
+    background-color: deeppink;
+    width: 100%;
+    height: 36%;
+}
+
+.subitem-bot-b{
+    background-color: darkmagenta;
+    width: 100%;
+    height: 55%;
+}
+
+.item-bot-mid{
+    background-color: aqua;
+    width: 20%;
+    height: 100%;
+}
+
+.item-bot-right{
+    width: 19%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.subitem-top{
+    background-color: brown; 
+    width: 100%;
+    height: 46%; 
+}
+
+.subitem-bot{
+    background-color: crimson;
+    width: 100%;
+    height: 44%;
+}
