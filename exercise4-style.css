@@ -89,17 +89,41 @@ body{
     flex-direction: column;
 }
 
-.subitem-top-a{
-    background-color: deeppink;
+.subItem-bot-top{
     width: 100%;
     height: 36%;
+}   
+
+.subItem-bot-topLeft{
+    background-color: deeppink;
+    width: 56%;
+    height: 100%;
 }
 
-.subitem-bot-b{
-    background-color: darkmagenta;
+.subItem-bot-topRight{
+    background-color: blueviolet;
+    width: 34%;
+    height: 100%;
+}
+
+
+.subItem-bot-bottom{
     width: 100%;
     height: 55%;
 }
+
+.subItem-bot-botLeft{
+    background-color: green;
+    width: 50%;
+    height: 100%;
+}
+
+.subItem-bot-botRight{
+    background-color: lawngreen;
+    width: 40%;
+    height: 100%;
+}
+
 
 .item-bot-mid{
     background-color: aqua;
@@ -113,13 +137,13 @@ body{
     flex-direction: column;
 }
 
-.subitem-top{
+.subItem-top{
     background-color: brown; 
     width: 100%;
     height: 46%; 
 }
 
-.subitem-bot{
+.subItem-bot{
     background-color: crimson;
     width: 100%;
     height: 44%;
