@@ -39,7 +39,48 @@ body{
 }
 
 .group-right{
-    background-color: darkcyan;
     width: 55%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.line-top{
+    width: 100%;
+    height: 22%;
+}
+
+.line-middle{
+    width: 100%;
+    height: 18%;
+}
+
+.line-bottom{
+    background-color: cadetblue;
+    width: 100%;
+    height: 50%;
+}
+
+.item-top-left{
+    background-color: antiquewhite;
+    width: 44%;
+    height: 100%;
+}
+
+.item-top-right{
+    background-color: burlywood;
+    width: 51%;
+    height: 100%;
+}
+
+.item-mid-left{
+    background-color: blueviolet;
+    width: 33%;
+    height: 100%;
+}
+
+.item-mid-right{
+    background-color: darkslateblue;
+    width: 62%;
+    height: 100%;
 }
 
